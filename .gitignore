@@ -37,3 +37,4 @@ database.php
 sftp-config.json
 .htaccess
 error_log
+.gitignore
