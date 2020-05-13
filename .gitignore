@@ -36,4 +36,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 database.php
 sftp-config.json
 .htaccess
-error_log
+error_log.
+.gitignore
