@@ -68,7 +68,6 @@ function hide_login_0() {
     $('#next1').hide(250);
     $('#login_form').hide(250, function() {
         $('#show_login').show(250);
-        // $('#branch_id').val('');
     })
 }
 
