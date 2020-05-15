@@ -30,6 +30,14 @@ $(function() {
         hide_login_0();
     })
 
+    $('#back2').click(function() {
+        show_branch();
+    })
+
+    $('#back3').click(function() {
+        show_user();
+    })
+
     $('#next1').click(function() {
         check_branch();
     })
@@ -60,9 +68,31 @@ function hide_login_0() {
     $('#next1').hide(250);
     $('#login_form').hide(250, function() {
         $('#show_login').show(250);
-        $('#branch_id').val('');
+        // $('#branch_id').val('');
     })
+}
 
+function show_branch() {
+    $('#back2').hide(250);
+    $('#next2').hide(250);
+    $('#back1').show(250);
+    $('#next1').show(250);
+    $('#branch_nm').hide(250);
+    user_name.hide(250);
+    branch_id.show(250);
+    branch_id.focus();
+}
+
+function show_user() {
+    $('#back3').hide(250);
+    $('#next3').hide(250);
+    $('#back2').show(250);
+    $('#next2').show(250);
+    $('#user_nm').hide(250);
+    $('#user_avatar').hide(250);
+    user_pass.hide(250);
+    user_name.show(250);
+    user_name.focus();
 }
 
 function check_branch() {
