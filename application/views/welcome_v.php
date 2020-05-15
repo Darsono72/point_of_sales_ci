@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="col-xs-1 col-md-4">&nbsp;</div>
 	<div class="col-xs-10 col-md-4">
 	<div class="text-center" style="margin-top: 20px;  text-align:center;">
-		<img src="<?php echo base_url('assets/images/pos_logo_1.png')?>">
+		<img class="img-responsive" src="<?php echo base_url('assets/images/pos_logo_1.png')?>">
 	</div>
 	<div class="text-center" style="margin-top: 20px;">
 		<span type="button" class="btn btn-primary btn-lg btn-block" id="show_login">Login</span>
