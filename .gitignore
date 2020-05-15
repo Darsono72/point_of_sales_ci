@@ -33,7 +33,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # Secret File
 #---------------------------
-*/config/database.php
+**/config/database.php
 sftp-config.json
 .htaccess
 error_log
