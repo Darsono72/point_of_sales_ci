@@ -5,6 +5,7 @@ class Dashboard extends CI_Controller {
 
 	public function __construct()
 	{
+		//TES PUSH
 		parent::__construct();
 		$this->load->model('admin/user_m');
 		is_login('0');
