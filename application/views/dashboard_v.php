@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h1>Dashboard</h1>
 		</div>
 		<div class="text-center" style="margin-top: 30px;">
-			<a href="<?php echo base_url('welcome/logout');?>"><span type="button" class="btn btn-danger btn-lg btn-block" id="btn_logout">Logout</span></a>
+			<a href="<?php echo base_url('login/logout');?>"><span type="button" class="btn btn-danger btn-lg btn-block" id="btn_logout">Logout</span></a>
 		</div>		
 	</div>	
 </div>

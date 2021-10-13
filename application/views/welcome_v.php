@@ -53,4 +53,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-<script src="<?php echo base_url('/assets/js/welcome.js?r='.rand());?>"></script>
+<script src="<?php echo base_url('/assets/js/login.js?r='.rand());?>"></script>
